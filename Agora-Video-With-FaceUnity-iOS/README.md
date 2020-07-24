@@ -27,10 +27,6 @@ Agora function implementation please refer to [Agora Document](https://docs.agor
 
 Due to the need to use third-party capture when using beauty function, please refer to [Customized Media Source API](https://docs.agora.io/en/Interactive%20Broadcast/raw_data_video_android?platform=Android)  or [Configuring the External Data API](https://docs.agora.io/en/Interactive%20Broadcast/raw_data_video_android?platform=Android)
 
-## Prepare FaceUnity SDK/Resources
-1. Download [FaceUnity SDK](https://github.com/AgoraIO/FaceUnity/releases/download/6.6.0/FaceUnity-6.6.0-SDK-iOS.zip)
-2. Download [FaceUnity items](https://github.com/AgoraIO/FaceUnity/releases/download/6.6.0/FaceUnity-6.6.0-items-iOS.zip)
-3. Place two zip files under AgoraWithFaceunity/Faceunity, and unzip them
 
 ## How to use the Agora Module capturer function.
 
@@ -76,9 +72,11 @@ Due to the need to use third-party capture when using beauty function, please re
      * libstdc++.framework
 
 #### SDK Downloads
-[AgoraModule_Base_iOS-1.1.1](https://download.agora.io/components/release/AgoraModule_Base_iOS-1.1.1.zip)
-[AgoraModule_Capturer_iOS-1.1.1](https://download.agora.io/components/release/AgoraModule_Capturer_iOS-1.1.1.zip)
-[AgoraModule_Renderer_iOS-1.1.1](https://download.agora.io/components/release/AgoraModule_Renderer_iOS-1.1.1.zip)
+[AgoraModule_Base_iOS-1.1.0](https://download.agora.io/components/release/AgoraModule_Base_iOS-1.1.0.zip)
+
+[AgoraModule_Capturer_iOS-1.1.0](https://download.agora.io/components/release/AgoraModule_Capturer_iOS-1.1.0.zip)
+
+[AgoraModule_Renderer_iOS-1.1.0](https://download.agora.io/components/release/AgoraModule_Renderer_iOS-1.1.0.zip)
                                
                            
 #### Add project permissions
@@ -163,6 +161,7 @@ interface AGMSenceTimeFilter : AGMVideoSource <AGMVideoSink>
 @end
 
 ```
+
 
 ## Running the App
 First, create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID. Update "KeyCenter.m" with your App ID. 

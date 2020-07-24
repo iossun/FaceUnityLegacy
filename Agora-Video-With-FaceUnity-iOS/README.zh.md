@@ -26,11 +26,6 @@ Agora 功能实现请参考 [Agora 官方文档](https://docs.agora.io/cn/Intera
 
 由于在使用美颜的时候需要使用第三方采集，请特别参考[自定义设备API](https://docs.agora.io/cn/Interactive%20Broadcast/raw_data_video_android?platform=Android)  或者 [自采集API](https://docs.agora.io/cn/Interactive%20Broadcast/raw_data_video_android?platform=Android)
 
-## 下载FaceUnity SDK/资源文件
-1. 下载 [FaceUnity SDK](https://github.com/AgoraIO/FaceUnity/releases/download/6.6.0/FaceUnity-6.6.0-SDK-iOS.zip)
-2. 下载 [FaceUnity items](https://github.com/AgoraIO/FaceUnity/releases/download/6.6.0/FaceUnity-6.6.0-items-iOS.zip)
-3. 将下载得到的两个zip包放到 AgoraWithFaceunity/Faceunity 下后解压即可
-
 ## 如何使用 Agora 模块化 SDK的采集功能
 
 ## 支持的功能
@@ -73,9 +68,11 @@ Agora 功能实现请参考 [Agora 官方文档](https://docs.agora.io/cn/Intera
      * libstdc++.framework
 
 #### SDK 下载
-[AgoraModule_Base_iOS-1.1.1](https://download.agora.io/components/release/AgoraModule_Base_iOS-1.1.1.zip)
-[AgoraModule_Capturer_iOS-1.1.1](https://download.agora.io/components/release/AgoraModule_Capturer_iOS-1.1.1.zip)
-[AgoraModule_Renderer_iOS-1.1.1](https://download.agora.io/components/release/AgoraModule_Renderer_iOS-1.1.1.zip)
+[AgoraModule_Base_iOS-1.1.0](https://download.agora.io/components/release/AgoraModule_Base_iOS-1.1.0.zip)
+
+[AgoraModule_Capturer_iOS-1.1.0](https://download.agora.io/components/release/AgoraModule_Capturer_iOS-1.1.0.zip)
+
+[AgoraModule_Renderer_iOS-1.1.0](https://download.agora.io/components/release/AgoraModule_Renderer_iOS-1.1.0.zip)
                                
                            
 #### 添加权限
@@ -160,6 +157,7 @@ interface AGMSenceTimeFilter : AGMVideoSource <AGMVideoSink>
 @end
 
 ```
+
 
 ## 运行示例程序
 首先在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 AppID。将 AppID 填写进 KeyCenter.m
